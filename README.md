@@ -1,2 +1,2 @@
 # PracticeAlogos
-HackerRank problem's solution in java
+HackerRank solutions in Java
