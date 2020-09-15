@@ -103,7 +103,7 @@ public class FibonacciSeries{
 		if(n==1)
 			return 1;
 		if(memo[n]==0){
-			memo[n] = fibdpWithMsg(n-1,memo,"n-1, n:"+(n-1)+"\t\t")+fibdpWithMsg(n-2,memo,"\t\t n-2, n: "+(n-2));
+			memo[n] = fibdpWithMsg(n-1,memo,"n-1, n :"+(n-1)+"\t\t")+fibdpWithMsg(n-2,memo,"\t\t n-2, n: "+(n-2));
 			System.out.println("\nAssigned memo["+n+"] : "+memo[n]+"");
 		}
 		return memo[n];
