@@ -9,7 +9,7 @@ public class TravelRestriction {
 			String incoming = in.nextLine();
 			String outgoing = in.nextLine();
 			String possibleTrips[][] = new String[countries][countries];
-			System.out.println("Case #"+i+": ");
+			System.out.println("Case # "+i+": ");
 			for(int k=0; k < possibleTrips.length; k++){
 				for(int j=0; j < possibleTrips[k].length; j++){
 					if(k == j) {
