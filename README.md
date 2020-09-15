@@ -1,2 +1,2 @@
-# PracticeAlogos
+# AlgorithmsPractice
 HackerRank solutions in Java
