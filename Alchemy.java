@@ -31,6 +31,6 @@ public class Alchemy {
 		}
 		Instant end2 = Instant.now();
 		Duration elp2 = Duration.between(start2, end2);
-		System.out.println("ellapsed time 1 : " + elp2.toMillis());
+		System.out.println("ellapsed time 2 : " + elp2.toMillis());
 	}
 }
