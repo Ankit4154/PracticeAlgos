@@ -30,7 +30,7 @@ public class StrongPassword {
 		else if (count == 4 && password.length() < 6)
 			return 6 - password.length();
 		else if(count < 4 && password.length() < 6) {
-			if(4-count+password.length() < 6)
+			if(4-count + password.length() < 6)
 				return 6 - password.length();
 			else
 				return 4-count;
